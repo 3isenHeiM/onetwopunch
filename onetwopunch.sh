@@ -14,7 +14,8 @@ echo " / _ \| '_ \ / _ \          | __\ \ /\ / / _ \  | '_ \| | | | '_ \ / __| '
 echo "| (_) | | | |  __/ ᕦ(ò_óˇ)ᕤ | |_ \ V  V / (_) | | |_) | |_| | | | | (__| | | /\_/ "
 echo " \___/|_| |_|\___|           \__| \_/\_/ \___/  | .__/ \__,_|_| |_|\___|_| |_\/   "
 echo "                                                |_|                               "
-echo "                                                                   by superkojiman"
+echo "                                                     Initialy made by superkojiman"
+echo "                                                              Updated by 3isenHeiM"
 echo ""
 }
 
