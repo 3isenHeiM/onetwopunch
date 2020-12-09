@@ -4,7 +4,7 @@
 # 
 
 FROM phusion/baseimage
-MAINTAINER superkojiman
+MAINTAINER 3isenHeiM
 
 # Install nmap and dependencies to build unicornscan
 RUN apt-get update
@@ -21,7 +21,7 @@ RUN git clone https://github.com/dneufeld/unicornscan.git
 RUN cd unicornscan && ./configure CFLAGS=-D_GNU_SOURCE && make && make install
 
 # Install nmap
-RUN wget --no-check-certificate https://raw.githubusercontent.com/superkojiman/onetwopunch/master/onetwopunch.sh -O /usr/local/bin/onetwopunch.sh
+RUN wget --no-check-certificate https://raw.githubusercontent.com/3isenHeiM/onetwopunch/master/onetwopunch.sh -O /usr/local/bin/onetwopunch.sh
 RUN chmod 755 /usr/local/bin/onetwopunch.sh
 
 # Clean up
