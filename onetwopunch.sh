@@ -100,6 +100,7 @@ rm -rf "${log_dir}/udir/"
 mkdir -p "${log_dir}/udir/"
 
 while read ip; do
+    [[ "$ip" =~ ^#.*$ ]] && continue # Skip commented lines
     log_ip=$(echo ${ip} | sed 's/\//-/g')
     echo -e "${BLUE}[+]${RESET} Scanning $ip for $proto ports..."
 
